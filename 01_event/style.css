@@ -1,0 +1,28 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+h1{
+ text-align: center;
+ margin-top: 20px;
+ font-size: 32px;
+ text-transform: uppercase;
+ font-weight: bold;
+}
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ gap: 20px;
+}
+button{
+ padding: 10px 20px;
+ font-size: 18px;
+ background-color: #3498db;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
